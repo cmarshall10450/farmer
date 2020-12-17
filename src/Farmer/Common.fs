@@ -1094,3 +1094,8 @@ module Dns =
         | PTR of PtrRecords : string list
         | TXT of TxtRecords : string list
         | MX of {| Preference : int; Exchange : string |} list
+
+module DataFactory =
+    type GitProvider =
+        | GitHub
+        | DevOps

@@ -1,6 +1,7 @@
 Release Notes
 =============
 ## vNext
+* Add support for creating Data Factories with Git version control
 
 ## 1.3.0-beta3
 * Container Instance: Support for secure parameters for environment variables and secret volumes.
